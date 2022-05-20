@@ -1,5 +1,5 @@
 /* tp1 Fermin Pedro Aldaya legajo 91521/3 COMISION 1
-    SE REINICIA CON LA BARRA ESPACIADORA */
+ SE REINICIA CON LA BARRA ESPACIADORA */
 
 import processing.sound.*;
 SoundFile ending;
@@ -22,10 +22,10 @@ void setup() {
   textFont(fuenteCreditos);
   akira = loadImage("akira.png");
   moto = loadImage("moto.png");
-  
+
   ending = new SoundFile(this, "ending.wav");
   ending.play();
-  
+
   for (int i = 0; i < images.length; i++) {
     images[i] = loadImage("im" + i + ".png"); 
     noCursor();
